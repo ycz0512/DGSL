@@ -12,7 +12,7 @@ from dgsl.misc.instrument import run_sac_experiment
 
 
 SHARED_PARAMS = {
-    "seed": [1],
+    "seed": [1, 2, 3, 4, 5],
     "lr": 1E-4,
     "discount": 0.99,
     "tau": 0.001,
