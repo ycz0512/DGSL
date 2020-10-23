@@ -8,7 +8,7 @@ from dgsl.misc.instrument import run_sac_experiment
 
 
 PARAMS = {
-    "seed": [1],
+    "seed": [1, 2, 3, 4, 5],
     "layer_size": 100,
     "lr": 2e-5,
     "snapshot_mode": 'gap',
