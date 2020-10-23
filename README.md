@@ -65,7 +65,7 @@ python examples/run_multigoal_dgsl.py <embedding-file-directory>
 ```
 
 - `<embedding-file-directory>` specifies the directory of `.pkl` file that contains the pre-trained latent embedding.
-- The log(.csv) and model(.pkl) will be saved to the `data/` directory by default. But the output directory can also be specified with --log_dir=[log-directory].
+- The log(.csv) and model(.pkl) will be saved to the `data/` directory by default. But the output directory can also be specified with `--log_dir=<log-directory>`.
 
 
 ### Visualizing Agents
@@ -78,7 +78,7 @@ python examples/visualize.py <model-file-directory> <embedding-file-directory> -
 
 - `<model-file-directory>` specifies the directory of `.pkl` file that contains the trained latent-conditioned policy.
 - `<embedding-file-directory>` specifies the directory of `.pkl` file that contains the trained latent embedding.
-- `--max_path_length` specifies the maximum environment steps in simulation.
+- `--max_path_length` specifies the maximum environment steps in simulation. By default it's 15 if you remove the flag.
 - `--save_image` enables saving rendering images to directory `../viz_data`. If you remove the flag, it will only render the environment without saving rendering images.
 
 
