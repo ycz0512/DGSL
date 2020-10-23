@@ -55,7 +55,7 @@ To train diverse goal-specific latent-conditioned policies in 2D-Navigation envi
 python examples/embedding.py --n_itrs=1000
 ```
 
-- `n_itrs` specifies the maximum number of training iteration. By default it's 500 if you remove the flag.
+- `n_itrs` specifies the maximum number of training iterations. By default it's 500 if you remove the flag.
 - The log(.csv) and model(.pkl) will be saved to the `data/` directory by default. But the output directory can also be specified with `--log_dir=<log-directory>`.
 
 2. Train the latent-conditioned policy using the pre-trained latent embedding:
@@ -79,8 +79,4 @@ python examples/visualize.py <model-file-directory> <embedding-file-directory> -
 - `<model-file-directory>` specifies the directory of `.pkl` file that contains the trained latent-conditioned policy.
 - `<embedding-file-directory>` specifies the directory of `.pkl` file that contains the trained latent embedding.
 - `--max_path_length` specifies the maximum environment steps in simulation. By default it's 15 if you remove the flag.
-- `--save_image` enables saving rendering images to directory `../viz_data`. If you remove the flag, it will only render the environment without saving rendering images.
-
-
-
-
+- `--save_image` enables saving rendering images to `../viz_data` directory. If you remove the flag, it will only render the environment without saving rendering images.
