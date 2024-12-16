@@ -1,6 +1,6 @@
 # Diverse Goal-specific Skills Learning (DGSL)
 
-Code accompanying the paper: "Learning Diverse Goal-specific Transferable Skills in Latent Space".  
+Code accompanying the project: "Learning Diverse Goal-specific Transferable Skills in Latent Space".  
 
 This framework provides an implementation of DGSL algorithm for training diverse goal-specific transferable skills in latent space.
 
